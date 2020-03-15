@@ -2,8 +2,8 @@ package src.factory;
 
 public class TrainingCampTest {
     public static void main(String[] args) {
-        TrainingCamp archeTrainingCamp = new ArcherTrainingCamp();
-        Adventurer memberA = archeTrainingCamp.trainAdventurer();
+        TrainingCamp archerTrainingCamp = new ArcherTrainingCamp();
+        Adventurer memberA = archerTrainingCamp.trainAdventurer();
 
         TrainingCamp warriorTrainingCamp = new WarriorTrainingCamp();
         Adventurer memberB = warriorTrainingCamp.trainAdventurer();
